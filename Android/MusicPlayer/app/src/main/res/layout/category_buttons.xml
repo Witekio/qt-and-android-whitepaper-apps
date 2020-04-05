@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2" >
+
+    <include
+        android:id="@+id/genres"
+        layout="@layout/category_button"
+        android:layout_width="@dimen/largeCell"
+        android:layout_height="@dimen/largeCell"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp" />
+
+    <include
+        android:id="@+id/artists"
+        layout="@layout/category_button"
+        android:layout_width="@dimen/largeCell"
+        android:layout_height="@dimen/largeCell"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp" />
+
+    <include
+        android:id="@+id/albums"
+        layout="@layout/category_button"
+        android:layout_width="@dimen/largeCell"
+        android:layout_height="@dimen/largeCell"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp" />
+
+    <include
+        android:id="@+id/album_songs"
+        layout="@layout/category_button"
+        android:layout_width="@dimen/largeCell"
+        android:layout_height="@dimen/largeCell"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp" />
+
+</GridLayout>

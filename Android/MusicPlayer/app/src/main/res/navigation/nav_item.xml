@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/splash_screen_fragment">
+
+    <fragment
+        android:id="@+id/splash_screen_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.SplashScreenFragment"
+        android:label="Splash screen fragment" />
+
+    <fragment
+        android:id="@+id/dashboard_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.DashboardFragment"
+        android:label="Dashboard fragment" />
+
+    <fragment
+        android:id="@+id/song_list_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.SongListFragment"
+        android:label="Song list fragment" />
+
+    <fragment
+        android:id="@+id/album_list_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.AlbumListFragment"
+        android:label="Album list fragment" />
+
+    <fragment
+        android:id="@+id/artist_list_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.ArtistListFragment"
+        android:label="Artist list fragment" />
+
+    <fragment
+        android:id="@+id/filtered_album_list_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.FilteredAlbumListFragment"
+        android:label="Album filtered by genre list fragment" />
+
+    <fragment
+        android:id="@+id/genre_list_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.GenreListFragment"
+        android:label="Genre list fragment" />
+
+    <fragment
+        android:id="@+id/play_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.PlayFragment"
+        android:label="Play fragment" />
+
+    <fragment
+        android:id="@+id/album_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.AlbumFragment"
+        android:label="Album fragment" />
+
+    <fragment
+        android:id="@+id/artist_filtered_album_list_fragment"
+        android:name="com.witekio.whitepaper.musicplayer.layout.fragment.ArtistFilteredAlbumListFragment"
+        android:label="Album filtered by artist fragment" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tinyCell">45dp</dimen>
+    <dimen name="smallCell">95dp</dimen>
+    <dimen name="normalCell">160dp</dimen>
+    <dimen name="largeCell">200dp</dimen>
+</resources>

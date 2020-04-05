@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#00ade9</color>
+    <color name="qtDarkBlue">#09102b</color>
+    <color name="qtDarkGrey">#3a4055</color>
+    <color name="qtLightGrey">#cecfd5</color>
+    <color name="steel">#848895</color>
+    <color name="blueZodiac">#3d4257</color>
+    <color name="valhalla">#282c43</color>
+    <color name="translucentQtDarkBlue">#7f09102b</color>
+</resources>

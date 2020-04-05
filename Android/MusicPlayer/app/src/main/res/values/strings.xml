@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="music">Music</string>
+    <string name="player">Player</string>
+    <string name="genres">Genres</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="by">by</string>
+    <string name="app_needs_access">In order to read your music files, MusicPlayer needs permission to access, read only, to your storage.</string>
+    <string name="understood">Understood!</string>
+    <string name="permission_issue">Permission issue</string>
+    <string name="fatal_permission_issue">Fatal permission issue</string>
+    <string name="sorry_but_close">You choose to doesn\'t allow MusicPlayer to access on reading to your storage. We respect your decision but MusicPlayer cannot work properly under this condition. Accordingly, MusicPlayer is going to stop now.</string>
+    <string name="so_long">So long…</string>
+    <string name="all_songs">ALL SONGS</string>
+    <string name="previous_song">previous song</string>
+    <string name="play_song">play song</string>
+    <string name="next_song">next song</string>
+    <string name="now">now</string>
+    <string name="playing">playing</string>
+    <string name="album_picture">Album picture</string>
+    <string name="volume_down">Volume down</string>
+    <string name="data_issue">Data issue</string>
+    <string name="ok">OK</string>
+    <string name="retry_selected_folder">Selection of folder wasn\'t successful. Could you try again?</string>
+    <string name="n_a"><![CDATA[<N/A>]]></string>
+    <string name="shuffle_button">shuffle button</string>
+    <string name="repeat_button">repeat button</string>
+    <string name="all_albums">ALL ALBUMS</string>
+    <string name="back_button">back button</string>
+    <string name="volume_up">Volume up</string>
+    <string name="all_genres">ALL GENRES</string>
+    <string name="album_art">Album art</string>
+    <string name="witekio_logo">Witekio Logo</string>
+    <string name="all_artists">ALL ARTISTS</string>
+</resources>

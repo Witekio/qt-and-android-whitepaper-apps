@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qtDarkBlue"
+    android:paddingTop="@dimen/smallMargin">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:text="@string/music"
+            android:textAllCaps="true"
+            android:textColor="@color/primaryColor"
+            android:textFontWeight="700"
+            android:textSize="@dimen/largeFontSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:text="@string/player"
+            android:textAllCaps="true"
+            android:textSize="@dimen/largeFontSize" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/category_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="@dimen/smallMargin" />
+
+    <com.witekio.whitepaper.musicplayer.view.SongView
+        android:id="@+id/current_playing_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/normalMargin"
+        android:background="@drawable/dashboard_player_background"
+        android:paddingVertical="6dp">
+
+        <RelativeLayout
+            android:id="@+id/art_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="@dimen/smallMargin"
+            android:layout_marginVertical="7dp"
+            android:duplicateParentState="true">
+
+            <ImageView
+                android:id="@+id/album_art_view"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_album_drawable"
+                android:duplicateParentState="true"
+                android:contentDescription="@string/album_art" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/play_pause_icon"
+                android:duplicateParentState="true" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/art_album"
+            android:duplicateParentState="true"
+            android:textColor="@color/play_pause_color"
+            android:textFontWeight="700" />
+
+        <TextView
+            android:id="@+id/song_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/art_album"
+            android:layout_toEndOf="@+id/art_album"
+            android:duplicateParentState="true"
+            android:textColor="@color/song_artist" />
+
+    </com.witekio.whitepaper.musicplayer.view.SongView>
+
+</RelativeLayout>

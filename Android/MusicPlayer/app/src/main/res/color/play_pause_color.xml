@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/primaryColor" app:state_playing="true" />
+    <item android:color="@color/primaryColor" app:state_paused="true" />
+    <item android:color="@color/qtDarkGrey" android:state_enabled="false" />
+    <item android:color="@color/qtLightGrey" />
+</selector>

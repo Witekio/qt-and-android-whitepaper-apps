@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tinyFontSize">12sp</dimen>
+    <dimen name="smallFontSize">18sp</dimen>
+    <dimen name="normalFontSize">22sp</dimen>
+    <dimen name="largeFontSize">34sp</dimen>
+
+    // margin definitions
+    <dimen name="tinyMargin">8dp</dimen>
+    <dimen name="smallMargin">12dp</dimen>
+    <dimen name="normalMargin">24dp</dimen>
+    <dimen name="largeMargin">32dp</dimen>
+    <dimen name="wideMargin">60dp</dimen>
+
+    // item sizes
+    <dimen name="smallButton">40</dimen>
+    <dimen name="normalButton">56</dimen>
+    <dimen name="largeButton">80</dimen>
+
+    <dimen name="tinyCell">23dp</dimen>
+    <dimen name="smallCell">45dp</dimen>
+    <dimen name="normalCell">95dp</dimen>
+    <dimen name="largeCell">160dp</dimen>
+
+    <dimen name="listItemHeight">80dp</dimen>
+    <dimen name="listSectionHeight">32dp</dimen>
+
+</resources>

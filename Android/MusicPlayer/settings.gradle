@@ -1,0 +1,5 @@
+include ':app', 
+        ':musicplayerbackend'
+		
+rootProject.name='MusicPlayer'
+project(':musicplayerbackend').projectDir = new File('../MusicPlayerBackend')

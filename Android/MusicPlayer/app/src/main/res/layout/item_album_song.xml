@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.witekio.whitepaper.musicplayer.view.SongView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/album_song_background"
+    android:paddingVertical="24dp">
+
+    <ImageView
+        android:id="@+id/play_pause"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="@dimen/smallMargin"
+        android:background="@drawable/play_pause_icon"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/play_pause"
+        android:duplicateParentState="true"
+        android:textColor="@color/play_pause_color"
+        android:textFontWeight="700" />
+
+    <TextView
+        android:id="@+id/song_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/smallMargin"
+        android:duplicateParentState="true"
+        android:textColor="@color/play_pause_color" />
+
+</com.witekio.whitepaper.musicplayer.view.SongView>
