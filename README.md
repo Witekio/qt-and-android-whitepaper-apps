@@ -1,6 +1,6 @@
-# Qt vs Android: Music Player
+# Qt And Android: Music Player
 
-Let’s compare both frameworks by developing a music player app on an NXP iMX.8 Quad board.
+Let’s compare by building an embedded system with a music player app on an NXP iMX.8 Quad board.
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ To achieve this, the Witekio developers team decided to build on a real-life exa
 
 ## White paper
 
-These two demo applications were created for our Qt vs Android whitepaper. When the whitepaper is available, this README will be updated with a link to download it.
+These two demo applications were created for our Qt And Android whitepaper. When the whitepaper is available, this README will be updated with a link to download it.
 
 ## Features
 
@@ -81,7 +81,7 @@ Home page | All songs page | Playing song page
 
 > **INFORMATION** Before start, please check the requirements section.
 
-1. Fork "Qt vs Android" by clicking on Github's Fork button above (you may have to log in first).
+1. Fork "Qt And Android" by clicking on Github's Fork button above (you may have to log in first).
 2. Install the following:
     * git
     * [Qt Creator](https://www.qt.io/download) 5.13. The open-source (community) version is enough. (You will need a Qt account).
@@ -149,7 +149,7 @@ Home page | All songs page | Playing song page
 
 > **INFORMATION** Before start, please check the requirements section.
 
-1. Create your own fork of "Qt vs Android" by clicking on Github's Fork button above (you may have to log in first).
+1. Create your own fork of "Qt And Android" by clicking on Github's Fork button above (you may have to log in first).
 1. Install the following:
     * git
     * [Android Studio](https://developer.android.com/studio) 3 or later
