@@ -1,4 +1,4 @@
-# Qt vs Android: Music Player
+# Qt and Android comparison: Music Player
 
 Let’s compare both frameworks by developing a music player app on an NXP iMX.8 Quad board.
 
